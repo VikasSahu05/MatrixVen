@@ -1,0 +1,376 @@
+body{
+    font-family:Raleway;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background: linear-gradient(90.19deg, #001435 0.15%, #023384 98.45%);
+    padding-bottom: 100px;
+    border: none;
+}
+.textblue{
+    color: #14BBEA;
+}
+.navLogo{
+width: 102px;
+height: 94px;
+}
+.navLink{
+    color: white;
+}
+.navLink:hover{
+    color:#1fb9ec;
+}
+.contactBtn:hover{
+    color: black;
+}
+
+/* section 2 css */
+.sectionSecond{
+    background: linear-gradient(90.19deg, #001435 0.15%, #023384 98.45%);
+}
+.para1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #14BBEA;
+}
+
+.para2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.sectionThird{
+    background-color: #001435;
+}
+/* section 2 css */
+
+/* start */
+.para4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+}
+/* end */
+/* start*/
+
+.sectionfourth{
+    background-color: #001435;
+}
+
+.para5{
+    padding: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+/* end */
+
+/* start */
+.sectionFive{
+    background-color: #001435;
+}
+.cardImage{
+    align-self: center;
+}
+.cardHover{
+    border-radius: 20px;
+    height: 386px;
+}
+.cardHover:hover{
+    cursor: pointer;
+    background-color:#023384;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+/* end */
+
+/* start */
+.sectionSix{
+    background-color: #001435;
+
+}
+/* end */
+
+/* start */
+.sectionSeven{
+    background-color: #001435;
+
+}
+
+.sevenCardMargin{
+    padding-top:78px;
+}
+.cardContentMargin{
+    padding-left:50px;
+}
+.cardHover2{
+    /* height: 196px; */
+    border-radius: 20px;
+}
+/* end */
+
+/* start */
+.sectionEight{
+    background-color: #001435;
+    
+}
+.colMargin{
+    margin-top: -185px;
+}
+.colheight{
+    height: 196px;
+}
+/* end */
+
+/* start */
+.sectionNine{
+    background-color: #001435;
+
+}
+ul{
+    list-style: none;
+}
+/* end */
+
+/* start */
+.sectionTen{
+    background-color: #001435;
+}
+.graphImageMargin{
+    margin-top: 200px;
+    margin-left: -40px;
+}
+.sectionEleven{
+    background-color: #001435;
+}
+/* end */
+
+/* start */
+.sectionTwelev{
+    background-color: #001435;
+}
+.marginCard{
+    margin-right: 80px;
+}
+.sectionThirtine{
+    background-color: #001435;
+    position: relative;
+
+}
+.rowMargin{
+    margin-left: 100px;
+}
+.btnHexa{
+    width: 100px;
+    height: 100px;
+}
+.btn2{
+    position: absolute;
+    right: 81%;
+}
+.btn4{
+    position: absolute;
+    right:81%;
+}
+.buttonHexa1{
+    position: absolute;
+    bottom:105%;
+    left:41%;
+}
+.buttonHexa2{
+    position: absolute;
+    bottom:82%;
+    left:45%;
+}
+.searchBtn{
+    font-size: 30px;
+    position: absolute;
+    right:94%;
+    bottom: 40%;
+}
+.btnPencil{
+    font-size: 30px;
+    position: absolute;
+    right:46%;
+    bottom: 40%;
+}
+.webBtn{
+    width: 40px;
+    position: absolute;
+    right:93%;
+    bottom: 30%;
+}
+.fastBtn{
+    width: 40px;
+    position: absolute;
+    right:40%;
+    bottom: 40%;
+}
+/* end */
+
+/* star */
+.marginCardCol{
+    margin-top: 190px;
+}
+/* end */
+
+/* start */
+.section2Last{
+    background: #000000;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 19px;
+}
+
+.inputStyle{
+    background: #000000;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+}
+.inputStyle:focus{
+    background: #000000;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;    
+}
+/* end */
+
+/* start */
+.footerSection{
+    background: #000000;
+
+}
+/* end */
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .navLogo{
+    width: 50px;
+    height: 50px;
+    }
+    .marginBottom{
+        margin-bottom: 20px;
+    }
+    .cardContentMargin{
+        padding-left:50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .colheight{
+        height: 300px;
+    }
+    .sevenCardMargin{
+        padding-top:0px;
+    }
+    .marginCard{
+        margin-right: 0px;
+    }
+    .rowMargin{
+        margin-left: 0px;
+    }
+    .marginBottom2{
+        margin-top: 0px;
+    }
+    /*  */
+    .btnHexa{
+        width: 100px;
+        height: 100px;
+    }
+    .btn2{
+        position: absolute;
+        right: 66%;
+    }
+    .btn4{
+        position: absolute;
+        right: 66%;
+    }
+    .buttonHexa1{
+        position: absolute;
+        bottom:112%;
+        left:35%;
+    }
+    .buttonHexa2{
+        position: absolute;
+        bottom:90%;
+        left:42%;
+    }
+    .searchBtn{
+        font-size: 30px;
+        position: absolute;
+        right:89%;
+        bottom: 40%;
+    }
+    .btnPencil{
+        font-size: 30px;
+        position: absolute;
+        right:40%;
+        bottom: 40%;
+    }
+    .webBtn{
+        width: 40px;
+        position: absolute;
+        right:87%;
+        bottom: 30%;
+    }
+    .fastBtn{
+        width: 40px;
+        position: absolute;
+        right:40%;
+        bottom: 40%;
+    }
+    /*  */
+}
+
+@media screen and (min-width:768px) and (max-width:1366px) {
+    .navLink{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }   
+    .navLogo{
+    width: 60px;
+    height: 60px;
+    }
+    .colMargin{
+        margin-top: -90px;
+    }
+    .colheight{
+        height: 300px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .marginCard{
+        margin-right: 50px;
+    }
+    .rowMargin{
+        margin-left: 100px;
+    }
+
+}
+
+
+
