@@ -373,4 +373,53 @@ ul{
 }
 
 
+@media screen and (min-width:1025) and (max-width:1200px){
+    .btnHexa{
+        width: 100px;
+        height: 100px;
+    }
+    .btn2{
+        position: absolute;
+        right: 66%;
+    }
+    .btn4{
+        position: absolute;
+        right: 66%;
+    }
+    .buttonHexa1{
+        position: absolute;
+        bottom:112%;
+        left:35%;
+    }
+    .buttonHexa2{
+        position: absolute;
+        bottom:90%;
+        left:42%;
+    }
+    .searchBtn{
+        font-size: 30px;
+        position: absolute;
+        right:89%;
+        bottom: 40%;
+    }
+    .btnPencil{
+        font-size: 30px;
+        position: absolute;
+        right:40%;
+        bottom: 40%;
+    }
+    .webBtn{
+        width: 40px;
+        position: absolute;
+        right:87%;
+        bottom: 30%;
+    }
+    .fastBtn{
+        width: 40px;
+        position: absolute;
+        right:40%;
+        bottom: 40%;
+    }
+}
+
 
